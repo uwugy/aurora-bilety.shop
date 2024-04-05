@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <link rel="stylesheet" href="styles/app.min.css">
+    <title>Document</title>
+</head>
+<body><link rel="stylesheet" href="styles.css">
+    
+    <!-- header -->
+    <header class="header" id="home">
+        <div class="container">
+            <div class="header__top">
+
+                <a href="#" class="logo">
+                    <img class="logo__image" src="images/logo.png" alt="logo">
+                </a>
+                <nav id="main-nav" class="navi header__navi">
+                    <a class="navi__link" href="#home">Главная</a>
+                    <a class="navi__link" href="#about-us">О нас</a>
+                    <a class="navi__link" href="#our-services">Наши преймущества</a>
+                    <a class="navi__link" href="#support">Соц. Сети</a>
+                </nav>
+                <a href="#support" class="btn btn--sm header__btn">КОНТАКТ</a>
+
+                <button class="toggle-menu header__toggle-menu js-toggle-menu" data-menu="#main-nav"><span></span></button>
+    
+            </div>
+
+            <div class="header__main">
+                <div class="header__main-left section-main">
+                    <h1 class="section-main__subtitle">Авиабилеты <br>Минск - Шереметьево</h1>
+                    <p class="section-main__text">Удобный сервис для покупки билетов без использования
+                        вами российских платежных систем.</p>
+                    <a href="https://t.me/uwu_gy" class="btn btn--secondary">НАПИСАТЬ</a>
+                </div>
+                <div class="header__main-right">
+                    <img class="header__main-image" src="images/hero.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+    <section class="sect-about-us" id="about-us">
+
+        <div class="sect-about-us__inner">
+            <div class="container row sect-about-us__decor">
+                <div class="col col-md-none">
+                    <div class="sect-about-us__image">
+                        <img src="/images/about-us.png" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <!-- <div class="sect-about-us__body"> -->
+                        <div class="section-main">
+                            <h2 class="section-main__title">О СЕРВИСЕ</h2>
+                            <h3 class="section-main__subtitle">Компания Aurora - надежная и удобная</h3>
+                            <p class="section-main__text">Мы предлагаем удобный сервис по приобретению авиабилетов
+                                Минск-Москва для граждан Украины.
+                                Наша миссия — помогать путешественникам из оккупированных
+                                территорий, облегчая процесс покупки билетов без использования ими российских платежных систем.</p>
+                            <!--<a href="#" class="btn">Learn more</a>-->
+                        </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+    <!-- our-services -->
+    <section class="sect-our-services" id="our-services">
+        <div class="container row">
+            <div class="col">
+                <div class="section-main">
+                    <h2 class="section-main__title">НАШИ ПРЕЙМУЩЕСТВА</h2>
+                    <h3 class="section-main__subtitle"> Надёжность и удобство в каждом билете</h3>
+                    <p class="section-main__text">Выбирая нас, вы выбираете надежного партнера, готового обеспечить вам комфортное и беззаботное путешествие из Минска в Москву. Присоединяйтесь к числу довольных клиентов, которые уже 
+                        оценили преимущества нашего сервиса.</p>
+                <!--<a href="#" class="btn">Learn more</a>-->
+                </div>
+            </div>
+            <div class="col col-md-none">
+                <div class="sect-our-services__image">
+                    <img src="/images/our-services.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our-services -->
+    <!--  -->
+    <!-- sect-people-say -->
+    <section class="sect-people-say">
+        <!-- <div class="container">
+            <img class="sect-people-say__decor" src="images/2.png" alt="">
+            <img class="sect-people-say__decor" src="images/1.png" alt="">
+            <img class="sect-people-say__decor" src="images/3.png" alt="">
+            <img class="sect-people-say__decor" src="images/4.png" alt="">
+            <img class="sect-people-say__decor" src="images/5.png" alt="">
+            <img class="sect-people-say__decor" src="images/6.png" alt="">
+            <div class="section-main sect-people-say__section-main">
+                <h2 class="section-main__title">TeStimonials</h2>
+                <h3 class="section-main__subtitle">What people say</h3> -->
+            </div>
+
+            <div class="cards">
+                <div class="splide">
+                    <div class="splide__arrows">
+                        <button class="splide__arrow splide__arrow--prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path d="M506.134 241.843l-.018-.019-104.504-104c-7.829-7.791-20.492-7.762-28.285.068-7.792 7.829-7.762 20.492.067 28.284L443.558 236H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h423.557l-70.162 69.824c-7.829 7.792-7.859 20.455-.067 28.284 7.793 7.831 20.457 7.858 28.285.068l104.504-104 .018-.019c7.833-7.818 7.808-20.522-.001-28.314z"/>
+                            </svg>                              
+                        </button>
+                        <button class="splide__arrow splide__arrow--next">        
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path d="M506.134 241.843l-.018-.019-104.504-104c-7.829-7.791-20.492-7.762-28.285.068-7.792 7.829-7.762 20.492.067 28.284L443.558 236H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h423.557l-70.162 69.824c-7.829 7.792-7.859 20.455-.067 28.284 7.793 7.831 20.457 7.858 28.285.068l104.504-104 .018-.019c7.833-7.818 7.808-20.522-.001-28.314z"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="splide__track">
+                        <div class="splide__list">
+                            <!-- <div class="splide__slides"></div> -->
+                            <div class="splide__slide ">
+                                <div class="cards-items">
+                                <div class="cards-items__text">
+                                    Просто и понятно. Нашли билет, помогли с оплатой, когда я сам не смог. Великолепно работают!
+                                </div>
+                                <div class="cards-items__name">Михаил</div>
+                                <!-- <div class="cards-items__stars">
+                                    <img src="/images/star.svg" alt="">
+                                    <img src="/images/star.svg" alt="">
+                                    <img src="/images/star.svg" alt="">
+                                    <img src="/images/star.svg" alt="">
+                                    <img src="/images/star.svg" alt="">
+                                </div> -->
+                            </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="cards-items">
+                                <div class="cards-items__text">
+                                    Очень удобно и быстро. Оплатила билет без проблем, хотя не могла это сделать через обычные пути. Супер сервис!
+                                </div>
+                                <div class="cards-items__name">Екатерина</div>
+<!--                                 <div class="cards-items__stars">
+                                    <img src="/images/star.png" alt="">
+                                    <img src="/images/star.png" alt="">
+                                    <img src="/images/star.png" alt="">
+                                    <img src="/images/star.png" alt="">
+                                    <img src="/images/star.png" alt="">
+                                </div> -->
+                            </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="cards-items">
+                                    <div class="cards-items__text">
+                                        Спасибо большое! Все понравилось: быстро нашли билеты и помогли с оформлением. Буду пользоваться ещё.
+                                    </div>
+                                    <div class="cards-items__name">Владимир</div>
+                                    <!-- <div class="cards-items__stars">
+                                        <img src="/images/star.svg" alt="">
+                                        <img src="/images/star.svg" alt="">
+                                        <img src="/images/star.svg" alt="">
+                                        <img src="/images/star.svg" alt="">
+                                        <img src="/images/star.svg" alt="">
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="cards-items">
+                                    <div class="cards-items__text">
+                                        Нашла идеальный вариант благодаря ребятам. Оплата прошла легко, обслуживание на уровне. Рекомендую всем! 
+                                    </div>
+                                    <div class="cards-items__name">Анна</div>
+                                    <!-- <div class="cards-items__stars">
+                                        <img src="/images/star.svg" alt="">
+                                        <img src="/images/star.svg" alt="">
+                                        <img src="/images/star.svg" alt="">
+                                        <img src="/images/star.svg" alt="">
+                                        <img src="/images/star.svg" alt="">
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sect-people-say -->
+
+    <!-- sect-contact -->
+    <section class="sect-contact" id="support">
+        <div class="container row">
+            <div class="col">
+                <div class="section-main">
+                    <h2 class="section-main__title">Наши Соц. Сети</h2>
+                    <h3 class="section-main__subtitle">Свяжитесь с нами!</h3>
+                    <p class="section-main__text" style="font-size: larger;">Мы всегда рады общению с нашими клиентами и 
+                        готовы ответить на любые ваши вопросы.</p>
+
+                   <!-- Telegram -->
+                   <a href="https://t.me/aurora_bilety" class="social-media-button">
+                   <img src="telegram.png" alt="Telegram" style="width: 40px; height: 40px;">
+                   </a>
+
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/+48577423769" class="social-media-button">
+                    <img src="whatapp.png" alt="WhatsApp" style="width: 40px; height: 40px;">
+                    </a>
+
+                    <!-- Viber -->
+                    <a href="https://viber.click/48577423769" class="social-media-button">
+                     <img src="viber.png" alt="Viber" style="width: 40px; height: 40px;">
+                    </a>
+
+    
+                </div>
+            </div>
+            <!-- <div class="col">
+                <form action="#" class="form sect-contact__form">
+                    <div class="form__inner">
+                        <div class="form__field">
+                            <input class="form__input" type="text" id="f1">
+                            <label class="form__label" for="f1">ФИО</label>
+                        </div>
+                        <div class="form__field">
+                            <input class="form__input" type="email" id="f2">
+                            <label class="form__label" for="f2">Mail</label>
+                        </div>
+                        <div class="form__field form__field--textarea">
+                            <textarea class="form__input" cols="20" rows="6" id="f3"></textarea>
+                            <label class="form__label" for="f3">Комментарий</label>
+                        </div>
+                         <button class="btn" type="submit">Submit</button> 
+                    </div>
+                </form> -->
+            <!-- </div> --> 
+        </div>
+    </section>
+    <!-- sect-contact -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <a href="#" class="logo footer__logo">
+                    <img class="logo__image" src="images/logo.png" alt="logo">
+                </a>
+                <nav class="navi footer__navi">
+                    <a class="navi__link" href="#home">Главная</a>
+                    <a class="navi__link" href="#about-us">О нас</a>
+                    <a class="navi__link" href="#our-services">Наши преймущества</a>
+                    <a class="navi__link" href="#support">Соц. Сети</a>
+                </nav>
+                <!-- <div class="social">
+                    <a class="social__item" href="#">
+                        <img src="/images/facebook.svg" alt="fb">
+                    </a>
+                    <a class="social__item" href="#">
+                        <img src="/images/yt.svg" alt="yt">
+                    </a>
+                    <a class="social__item" href="#">
+                        <img src="/images/twitter.svg" alt="twitter">
+                    </a>
+                    <a class="social__item" href="#">
+                        <img src="/images/linkedin.svg" alt="linkedin">
+                    </a>
+                </div> -->
+            </div>
+        </div>
+        <div class="container">
+            <p class="copy">Aurora © Donetsk 2024</p>
+        </div>
+    </footer>
+<!-- <svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="0" height="0"
+ style="position: absolute;"
+ >
+ <defs>
+<clipPath id="myClip">
+<path fill-rule="evenodd"  fill="rgb(216, 216, 216)"
+    style="transform: translate(66px, 84px);"
+ d="M203.904,4.547 C282.558,18.427 349.725,65.672 418.687,104.129 C464.092,129.449 512.552,142.156 561.570,158.758 C686.191,200.967 813.581,274.957 804.473,410.769 C796.884,523.952 685.764,649.171 550.203,659.566 C503.316,663.159 462.214,650.251 425.321,629.609 C403.169,617.221 381.152,596.697 352.216,596.019 C321.697,595.308 290.528,616.241 264.307,629.708 C225.285,649.765 184.178,670.700 140.196,676.724 C39.285,690.548 9.859,622.409 16.619,533.971 C19.908,490.978 29.397,448.775 35.260,406.119 C43.576,345.624 30.000,293.305 14.438,235.100 C0.578,183.266 -8.725,125.605 15.945,77.912 C43.937,23.795 110.065,-2.133 171.027,0.833 C182.222,1.377 193.168,2.650 203.904,4.547 "/>
+</clipPath>
+</defs>
+</svg> -->
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

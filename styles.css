@@ -1,0 +1,29 @@
+.sect-our-services .section-main {
+    padding-left: 50px; /* Примерный отступ слева */
+}
+
+  
+.header::before {
+    content: ''; /* Необходимо для создания псевдоэлемента */
+    position: absolute; /* Абсолютное позиционирование относительно родителя */
+    top: 50%; /* Позиционируем по центру сверху */
+    left: 0; /* Позиция слева */
+    transform: translateY(-50%); /* Сдвигаем назад на половину высоты, чтобы центрировать относительно родителя */
+    width: 100px; /* Ширина элемента декора */
+    height: 100px; /* Высота элемента декора */
+    background-image: url('airplane.png'); /* Путь к изображению */
+    background-size: cover; /* Размер фона */
+    background-repeat: no-repeat; /* Без повторения */
+    z-index: 1; /* Устанавливаем необходимый z-index, если нужно */
+}
+.sect-about-us__image{
+    position: relative;
+    top: -50px;
+    left: 150px;
+ }
+ .header__main-image{
+        max-width: 100%;
+        height: auto;
+        top: 100px;
+        left: 200px;
+ }
