@@ -18,8 +18,8 @@
 }
 @media (max-width: 600px) {
   .class-name {
-    .sect-our-services .section-main 
-    padding-left: 00px;
+    .sect-our-services .section-main { 
+    padding-left: 00px;}
     display: none;
   }
 }
