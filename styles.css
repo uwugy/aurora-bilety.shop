@@ -28,3 +28,8 @@
         top: 100px;
         left: 200px;
  }
+@media (max-width: 768px) {
+    .sect-our-services {
+        margin-left: -75px;
+    }
+}
