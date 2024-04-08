@@ -16,13 +16,6 @@
     background-repeat: no-repeat; /* Без повторения */
     z-index: 1; /* Устанавливаем необходимый z-index, если нужно */
 }
-@media (max-width: 600px) {
-  .class-name {
-    .sect-our-services .section-main { 
-    padding-left: 00px;}
-    display: none;
-  }
-}
 
 .sect-about-us__image{
     position: relative;
